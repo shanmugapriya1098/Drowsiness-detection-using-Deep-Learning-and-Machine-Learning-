@@ -1,0 +1,8 @@
+cmake
+
+install keras
+install opencv-python(cv2)
+install pygame
+install twilio
+install smtplib
+install email
