@@ -18,7 +18,7 @@ smtp_server = 'smtp.gmail.com'
 smtp_port = 587
 smtp_username = 'shanmuga@gmail.com'
 smtp_password = 'cczwvznpdnidomrz'
-receiving_email = 'shanmuga579@gmail.com'
+receiving_email = 'shanmuga@gmail.com'
 subject = 'Driver who is sleeping'
 
 
@@ -37,7 +37,7 @@ auth_token = '717653b0e76dd57c0445491f9eb88c78'
 # Create a Twilio client object
 client = Client(account_sid, auth_token)
 # The phone number you want to call (in E.164 format)
-to_number = '+919150346391'
+to_number = 'add you number'
 # The Twilio phone number to use as the caller ID (in E.164 format)
 from_number = '+12762959853'
 # The URL of the TwiML file that will handle the call
@@ -191,3 +191,4 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+
