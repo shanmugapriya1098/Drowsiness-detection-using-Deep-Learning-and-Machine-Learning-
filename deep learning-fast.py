@@ -97,7 +97,7 @@ while True:
                 out.release()
                 client_s3 = boto3.client('s3', aws_access_key_id='AKIAZLPUARLDTKFL5NBP',
                                       aws_secret_access_key='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')
-                bucket = 'gabeguna579'
+                bucket = 'shanmuga109'
                 file = 'drowsiness.avi'
                 filename = os.path.join(path, file)
                 client_s3.upload_file(filename, bucket, file,ExtraArgs={'ContentType':'video/x-msvideo','ContentDisposition':'inline'})
@@ -130,3 +130,4 @@ while True:
 cap.release()
 
 cv2.destroyAllWindows()
+
