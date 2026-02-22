@@ -14,7 +14,7 @@ smtp_server = 'smtp.gmail.com'
 smtp_port = 587
 smtp_username = 'shanmuga@gmail.com'
 smtp_password = 'cczwvznpdnidomrz'
-receiving_email = 'gabeguna579@gmail.com'
+receiving_email = 'abc@gmail.com'
 subject = 'Driver who is sleeping'
 msg = MIMEMultipart()
 msg['From'] = smtp_username
@@ -128,4 +128,5 @@ while True:
         break
 
 cap.release()
+
 cv2.destroyAllWindows()
