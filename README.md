@@ -29,7 +29,7 @@ driver-drowsiness-detection/
 │   └── emotion_model.h5
 │
 ├── alarm.wav                            # Alert sound file
-├── machine_learning.jpg                 # Illustration of ML workflow
+├── machine_learning.jpg                 # Output image file
 ├── driver-drowsiness.py                 # 🚗 Main script (Deep Learning)
 ├── driver-drowsiness-ml.py              # 🤖 ML-based implementation
 ├── deep_learning-fast.py                # ⚡ Optimized deep learning
