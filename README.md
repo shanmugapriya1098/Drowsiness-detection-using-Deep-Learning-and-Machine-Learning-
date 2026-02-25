@@ -28,25 +28,14 @@ driver-drowsiness-detection/
 │   ├── drowsiness_classifier.pkl
 │   └── emotion_model.h5
 │
-├── utils/                       # Utility scripts
-│   ├── bucket_upload.py         # Upload files to cloud bucket
-│   ├── file_retrieval.py        # File retrieval utility
-│   └── screen_recorder.py       # Screen recording utility
-│
-├── assets/                      # Project assets
-│   ├── alarm.wav                # Alert sound file
-│   └── machine_learning.jpg     # Illustration of ML workflow
-│
-├── src/                         # Source code
-│   ├── driver-drowsiness.py                 # 🚗 Main script (Deep Learning)
-│   ├── driver-drowsiness-ml.py              # 🤖 ML-based implementation
-│   ├── deep_learning-fast.py                # ⚡ Optimized deep learning
-│   ├── em.py                                # 😴 Emotion/drowsiness detection
-│   └── serverstream.py                      # 🌐 Server streaming utility
-│
-├── docs/                        # Documentation
-│   └── README.md                # Project documentation
-│
+├── alarm.wav                # Alert sound file
+├── machine_learning.jpg     # Illustration of ML workflow
+├── driver-drowsiness.py                 # 🚗 Main script (Deep Learning)
+├── driver-drowsiness-ml.py              # 🤖 ML-based implementation
+├── deep_learning-fast.py                # ⚡ Optimized deep learning
+├── em.py                                # 😴 Emotion/drowsiness detection
+├── serverstream.py                      # 🌐 Server streaming utility
+├── README.md                # Project documentation
 ├── requirements.txt             # 📦 Python dependencies
 └── setup.py                     # 🛠️ Project setup
 ```
