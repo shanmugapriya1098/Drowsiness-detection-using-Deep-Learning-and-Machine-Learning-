@@ -17,7 +17,7 @@ This repository contains a project that detects driver drowsiness using both **M
 
 
 ## 📂 Project Structure
-''' bash
+```
 driver-drowsiness-detection/
 │
 ├── haar_cascade_files/          # Haar cascade XML files for face/eye detection
@@ -49,7 +49,8 @@ driver-drowsiness-detection/
 │
 ├── requirements.txt             # 📦 Python dependencies
 └── setup.py                     # 🛠️ Project setup
-''' bash
+```
+
 ## ⚙️ Installation
 1. Clone the repository:
    ```bash
