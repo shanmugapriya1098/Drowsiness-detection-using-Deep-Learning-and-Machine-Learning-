@@ -21,8 +21,9 @@ This repository contains a project that detects driver drowsiness using both **M
 driver-drowsiness-detection/
 │
 ├── haar_cascade_files/          # Haar cascade XML files for face/eye detection
-│   ├── haarcascade_frontalface_default.xml
-│   └── haarcascade_eye.xml
+│   ├── haarcascade_frontalface_alt.xml
+│   ├── haarcascade_lefteye_2splits.xml
+│   └── haarcascade_righteye_2splits.xml
 │
 ├── models/                      # Pre-trained and custom-trained models
 │   ├── drowsiness_classifier.pkl
