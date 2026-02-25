@@ -18,20 +18,20 @@ This repository contains a project that detects driver drowsiness using both **M
 
 ## 📂 Project Structure
 '''
-├── haar cascade files/          # Haar cascade XML files for face/eye detection
-├── models/                      # Pre-trained and custom-trained models
-├── alarm.wav                    # Alert sound file
-├── bucket_upload.py             # Upload files to cloud bucket
-├── deep learning-fast.py        # Deep learning implementation
-├── driver-drowsiness.py         # Main script for drowsiness detection
-├── driver-drowsiness by machine learning.py # ML-based implementation
-├── em.py                        # Emotion/drowsiness-related script
-├── file_retrieval.py            # File retrieval utility
-├── machine_learning.jpg         # Illustration of ML workflow
-├── project_requirements.txt     # Dependencies list
-├── screen_recorder.py           # Screen recording utility
-├── serverstream.py              # Server streaming utility
-└── README.md                    # Project documentation
+├──  haar cascade files/          # Haar cascade XML files for face/eye detection
+├──  models/                      # Pre-trained and custom-trained models
+├──  alarm.wav                    # Alert sound file
+├──  bucket_upload.py             # Upload files to cloud bucket
+├──  deep learning-fast.py        # Deep learning implementation
+├──  driver-drowsiness.py         # Main script for drowsiness detection
+├──  driver-drowsiness by machine learning.py # ML-based implementation
+├──  em.py                        # Emotion/drowsiness-related script
+├──  file_retrieval.py            # File retrieval utility
+├──  machine_learning.jpg         # Illustration of ML workflow
+├──  project_requirements.txt     # Dependencies list
+├──  screen_recorder.py           # Screen recording utility
+├──  serverstream.py              # Server streaming utility
+└──  README.md                    # Project documentation
 '''
 
 ## ⚙️ Installation
