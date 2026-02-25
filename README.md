@@ -1,4 +1,4 @@
-<img width="193" height="183" alt="image" src="https://github.com/user-attachments/assets/3a1523d7-a7d1-44a7-9014-8ab0233a582d" /># Drowsiness Detection using Deep Learning and Machine Learning
+# Drowsiness Detection using Deep Learning and Machine Learning
 
 This repository contains a project that detects driver drowsiness using both **Machine Learning** and **Deep Learning** approaches in Python. The system leverages computer vision techniques to monitor eye activity and trigger alerts when signs of drowsiness are detected.
 
