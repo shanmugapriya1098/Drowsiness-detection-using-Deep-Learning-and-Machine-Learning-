@@ -2,7 +2,6 @@
 
 This repository contains a project that detects driver drowsiness using both **Machine Learning** and **Deep Learning** approaches in Python. The system leverages computer vision techniques to monitor eye activity and trigger alerts when signs of drowsiness are detected.
 
----
 
 ## 📌 Features
 - Real-time drowsiness detection using webcam input.
@@ -16,9 +15,9 @@ This repository contains a project that detects driver drowsiness using both **M
   - File retrieval and cloud bucket upload.
   - Screen recording and server streaming.
 
----
 
 ## 📂 Project Structure
+'''
 ├── haar cascade files/          # Haar cascade XML files for face/eye detection
 ├── models/                      # Pre-trained and custom-trained models
 ├── alarm.wav                    # Alert sound file
@@ -33,8 +32,7 @@ This repository contains a project that detects driver drowsiness using both **M
 ├── screen_recorder.py           # Screen recording utility
 ├── serverstream.py              # Server streaming utility
 └── README.md                    # Project documentation
-
----
+'''
 
 ## ⚙️ Installation
 1. Clone the repository:
