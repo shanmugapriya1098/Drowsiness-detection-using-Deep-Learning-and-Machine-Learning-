@@ -61,19 +61,27 @@ driver-drowsiness-detection/
 '''bash
   python driver-drowsiness.py
 When drowsiness is detected, the system will play an alarm sound (alarm.wav) to alert the driver.
-🧠 Technologies Used
+
+
+## 🧠 Technologies Used
 Python
 - OpenCV (for image processing and Haar cascades)
 - TensorFlow/Keras (for deep learning models)
 - Scikit-learn (for machine learning models)
 - NumPy, Pandas (data handling)
 - Matplotlib/Seaborn (visualization)
-📈 Future Improvements
+
+  
+## 📈 Future Improvements
 - Integration with IoT devices for real-time vehicle alerts.
 - Deployment as a mobile/desktop application.
-👩‍💻 Author
+
+  
+## 👩‍💻 Author
 Developed by shanmugapriya1098 (github.com in Bing)
-Output ⚡
+
+
+## ⚡ Output 
 <p align="center">
   <img src="machine_learning.jpg" width="50%" alt="Output image" />
 </p>
