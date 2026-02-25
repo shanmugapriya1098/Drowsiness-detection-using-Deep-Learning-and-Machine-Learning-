@@ -70,7 +70,6 @@ Python
 👩‍💻 Author
 Developed by shanmugapriya1098 (github.com in Bing)
 Output ⚡
-![Output screen](machine_learning.jpg)
 <p align="center">
   <img src="machine_learning.jpg" width="50%" alt="Output image" />
 </p>
