@@ -17,22 +17,38 @@ This repository contains a project that detects driver drowsiness using both **M
 
 
 ## 📂 Project Structure
-'''
-├──  haar cascade files/          # Haar cascade XML files for face/eye detection
-├──  models/                      # Pre-trained and custom-trained models
-├──  alarm.wav                    # Alert sound file
-├──  bucket_upload.py             # Upload files to cloud bucket
-├──  deep learning-fast.py        # Deep learning implementation
-├──  driver-drowsiness.py         # Main script for drowsiness detection
-├──  driver-drowsiness by machine learning.py # ML-based implementation
-├──  em.py                        # Emotion/drowsiness-related script
-├──  file_retrieval.py            # File retrieval utility
-├──  machine_learning.jpg         # Illustration of ML workflow
-├──  project_requirements.txt     # Dependencies list
-├──  screen_recorder.py           # Screen recording utility
-├──  serverstream.py              # Server streaming utility
-└──  README.md                    # Project documentation
-'''
+
+driver-drowsiness-detection/
+│
+├── haar_cascade_files/          # Haar cascade XML files for face/eye detection
+│   ├── haarcascade_frontalface_default.xml
+│   └── haarcascade_eye.xml
+│
+├── models/                      # Pre-trained and custom-trained models
+│   ├── drowsiness_classifier.pkl
+│   └── emotion_model.h5
+│
+├── utils/                       # Utility scripts
+│   ├── bucket_upload.py         # Upload files to cloud bucket
+│   ├── file_retrieval.py        # File retrieval utility
+│   └── screen_recorder.py       # Screen recording utility
+│
+├── assets/                      # Project assets
+│   ├── alarm.wav                # Alert sound file
+│   └── machine_learning.jpg     # Illustration of ML workflow
+│
+├── src/                         # Source code
+│   ├── driver-drowsiness.py                 # 🚗 Main script (Deep Learning)
+│   ├── driver-drowsiness-ml.py              # 🤖 ML-based implementation
+│   ├── deep_learning-fast.py                # ⚡ Optimized deep learning
+│   ├── em.py                                # 😴 Emotion/drowsiness detection
+│   └── serverstream.py                      # 🌐 Server streaming utility
+│
+├── docs/                        # Documentation
+│   └── README.md                # Project documentation
+│
+├── requirements.txt             # 📦 Python dependencies
+└── setup.py                     # 🛠️ Project setup
 
 ## ⚙️ Installation
 1. Clone the repository:
