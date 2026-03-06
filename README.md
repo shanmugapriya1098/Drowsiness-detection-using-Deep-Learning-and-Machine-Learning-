@@ -30,7 +30,6 @@ driver-drowsiness-detection/
 │   └── model2.h5
 │
 ├── alarm.wav                                # Alert sound file
-├── machine_learning.jpg                     # Output image file
 ├── driver-drowsiness.py                     # 🚗 Main script (Deep Learning)
 ├── driver-drowsiness by machine learning.py # 🤖 ML-based implementation
 ├── deep learning-fast.py                    # ⚡ Optimized deep learning
@@ -79,10 +78,3 @@ Python
   
 ## 👩‍💻 Author
 Developed by shanmugapriya1098 (github.com in Bing)
-
-
-## ⚡ Output 
-<p align="center">
-  <img src="machine_learning.jpg" oncontextmenu="return false;" width="50%" alt="Output image" />
-</p>
-
