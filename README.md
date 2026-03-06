@@ -83,6 +83,6 @@ Developed by shanmugapriya1098 (github.com in Bing)
 
 ## ⚡ Output 
 <p align="center">
-  <img src="machine_learning.jpg" width="50%" alt="Output image" />
+  <img src="machine_learning.jpg" oncontextmenu="return false;" width="50%" alt="Output image" />
 </p>
 
