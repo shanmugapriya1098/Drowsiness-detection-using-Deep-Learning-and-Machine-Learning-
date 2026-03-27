@@ -32,14 +32,14 @@ msg['To'] = receiving_email
 msg['Subject'] = subject
 
 # Your Twilio account SID and auth token
-account_sid = 'AC47523ec6395a7d25077576b7af13e804'
-auth_token = '717653b0e76dd57c0445491f9eb88c78'
+account_sid = ''
+auth_token = ''
 # Create a Twilio client object
 client = Client(account_sid, auth_token)
 # The phone number you want to call (in E.164 format)
 to_number = 'add you number'
 # The Twilio phone number to use as the caller ID (in E.164 format)
-from_number = '+12762959853'
+from_number = '+12762959'
 # The URL of the TwiML file that will handle the call
 twiml_url = 'http://demo.twilio.com/docs/voice.xml'
 
