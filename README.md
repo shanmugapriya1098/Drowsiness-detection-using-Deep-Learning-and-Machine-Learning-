@@ -78,3 +78,7 @@ Python
   
 ## 👩‍💻 Author
 Developed by shanmugapriya1098 (github.com in Bing)
+
+## 📤 Output
+<html></html>
+<img src="machine_learning.jpg"></html>
