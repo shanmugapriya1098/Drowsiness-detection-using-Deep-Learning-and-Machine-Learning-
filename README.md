@@ -32,7 +32,7 @@ driver-drowsiness-detection/
 ├── driver-drowsiness.py                     # 🚗 Main script (Deep Learning)
 ├── driver-drowsiness by machine learning.py # 🤖 ML-based implementation
 ├── deep learning-fast.py                    # ⚡ Optimized deep learning
-├── em.py                                    # 😴 Emotion/drowsiness detection
+├── em.py                                    # sample email sending program
 ├── serverstream.py                          # 🌐 Server streaming utility
 ├── README.md                                # Project documentation
 ├── machine_learning.jpg                     #  reference image for drowsiness detection using machine learning
