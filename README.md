@@ -47,7 +47,7 @@ driver-drowsiness-detection/
    cd Drowsiness-detection-using-Deep-Learning-and-Machine-Learning-
 2. Install dependencies:
    ```bash
-  pip install -r project_requirements.txt
+   pip install -r project_requirements.txt
 3. Ensure you have a working webcam connected.
    
 ## 🚀 Usage
@@ -56,10 +56,10 @@ driver-drowsiness-detection/
    python deep\ learning-fast.py
 2. Run the machine learning implementation:
    ```bash
-  python driver-drowsiness\ by\ machine\ learning.py
+   python driver-drowsiness\ by\ machine\ learning.py
 3. Run the main detection script:
    ```bash
-  python driver-drowsiness.py
+   python driver-drowsiness.py
 When drowsiness is detected, the system will play an alarm sound (alarm.wav) to alert the driver.
 
 
