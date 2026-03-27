@@ -52,13 +52,12 @@ driver-drowsiness-detection/
 ## 🚀 Usage
 1. Run the deep learning implementation:
    ```bash
-   python deep\ learning-fast.py
+   python deep learning-fast.py
+                       (or)
 2. Run the machine learning implementation:
    ```bash
-   python driver-drowsiness\ by\ machine\ learning.py
-3. Run the main detection script:
-   ```bash
-   python driver-drowsiness.py
+   python driver-drowsiness by machine learning.py
+
 When drowsiness is detected, the system will play an alarm sound (alarm.wav) to alert the driver.
 
 
