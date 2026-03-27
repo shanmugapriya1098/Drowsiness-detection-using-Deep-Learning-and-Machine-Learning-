@@ -20,7 +20,7 @@ while True:
     cv2.waitKey(0)
 cv2.destroyAllWindows()
 out.release()"""
-client=boto3.client('s3',aws_access_key_id='AKIAZLPUARLDTKFL5NBP',aws_secret_access_key='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')
+client=boto3.client('s3',aws_access_key_id='',aws_secret_access_key='')
 bucket='shanmu123'
 cur_path=os.getcwd()
 file='y2mate.com - How to work in Photoshop ._0djp_WKtuKQ_360p.mp4'
@@ -32,9 +32,9 @@ print(f"Use this url to see the video {url}")
 #webbrowser.open(url)
 s3 = boto3.client('s3',
 
-                  aws_access_key_id="AKIAZLPUARLDTKFL5NBP",
+                  aws_access_key_id="",
 
-                  aws_secret_access_key="BsmuMZJDtNDQJEC5v8Z8Skes6AF8md5no2743O2D",
+                  aws_secret_access_key="",
 
 
 
