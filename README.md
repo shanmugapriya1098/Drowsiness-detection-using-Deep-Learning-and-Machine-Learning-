@@ -26,8 +26,7 @@ driver-drowsiness-detection/
 │   └── haarcascade_righteye_2splits.xml
 │
 ├── models/                      # Pre-trained and custom-trained models
-│   ├── model.h5
-│   └── model2.h5
+│   └── model.h5
 │
 ├── alarm.wav                                # Alert sound file
 ├── driver-drowsiness.py                     # 🚗 Main script (Deep Learning)
