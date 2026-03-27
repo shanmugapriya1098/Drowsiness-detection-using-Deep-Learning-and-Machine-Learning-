@@ -20,11 +20,11 @@ msg = MIMEMultipart()
 msg['From'] = smtp_username
 msg['To'] = receiving_email
 msg['Subject'] = subject
-account_sid = 'AC47523ec6395a7d25077576b7af13e804'
-auth_token = '717653b0e76dd57c0445491f9eb88c78'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token)
 to_number = '+911234567890'
-from_number = '+12762959853'
+from_number = ''
 twiml_url = 'http://demo.twilio.com/docs/voice.xml'
 mixer.init()
 sound = mixer.Sound('alarm.wav')
@@ -95,8 +95,8 @@ while True:
             notification+=1
             if (notification % 40) == 0:
                 out.release()
-                client_s3 = boto3.client('s3', aws_access_key_id='AKIAZLPUARLDTKFL5NBP',
-                                      aws_secret_access_key='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')
+                client_s3 = boto3.client('s3', aws_access_key_id='',
+                                      aws_secret_access_key='')
                 bucket = 'shanmuga109'
                 file = 'drowsiness.avi'
                 filename = os.path.join(path, file)
