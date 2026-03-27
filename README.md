@@ -36,7 +36,7 @@ driver-drowsiness-detection/
 ├── em.py                                    # 😴 Emotion/drowsiness detection
 ├── serverstream.py                          # 🌐 Server streaming utility
 ├── README.md                                # Project documentation
-└── project_requirements.txt                         # 📦 Python dependencies
+└── project_requirements.txt                 # 📦 Python dependencies
 ```
 
 ## ⚙️ Installation
