@@ -81,4 +81,5 @@ Developed by shanmugapriya1098 (github.com in Bing)
 
 ## 📤 Output
 <html>
-<img src="machine_learning.jpg" style="align:center"></html>
+  <p style="align:center">
+<img src="machine_learning.jpg" style="align:center"></p></html>
