@@ -53,7 +53,9 @@ driver-drowsiness-detection/
 1. Run the deep learning implementation:
    ```bash
    python deep learning-fast.py
-(or)                      
+   
+(or)   
+
 2. Run the machine learning implementation:
    ```bash
    python driver-drowsiness by machine learning.py
