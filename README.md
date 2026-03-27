@@ -54,7 +54,7 @@ driver-drowsiness-detection/
    ```bash
    python deep learning-fast.py
    
-(or)   
+                                                                                                            (or)   
 
 2. Run the machine learning implementation:
    ```bash
